@@ -3,5 +3,3 @@ const triangleArea = (a, b, c) => {
     
     return (Math.sqrt(semiParameter * (semiParameter - a) * (semiParameter - b) * (semiParameter - c)));
 }
-
-console.log(triangleArea(6, 6, 6));
