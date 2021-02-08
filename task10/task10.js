@@ -12,8 +12,8 @@ const sameLetter = (string1, string2) => {
         longest = temp2;
     }
 
-    for (let v = 0; v < longest.length; v ++) {
-        for (let t = 0; t < shortest.length; t++) {
+    for (let v = 0; v < shortest.length; v ++) {
+        for (let t = 0; t < longest.length; t++) {
             if (shortest[t] === longest[v]) {
                 str += shortest[t] + ", ";
             }
