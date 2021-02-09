@@ -8,7 +8,6 @@ const timeConverter = (minutes) => {
     
     if (mins === 1) tempMin = mins + " minute";
     else tempMin = mins + " minutes";
-
-    console.log(tempHr + tempMin)
+    
     return (tempHr + tempMin);
 }
