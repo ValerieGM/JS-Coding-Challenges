@@ -5,3 +5,6 @@ const toFahrenheit = (celsius) => {
 const toCelsius = (fahrenheit) => {
     return ((fahrenheit - 32) * (5 / 9));
 }
+
+console.log(toFahrenheit(35));
+console.log(toCelsius(95));

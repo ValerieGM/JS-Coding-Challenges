@@ -22,3 +22,5 @@ const sameLetter = (string1, string2) => {
 
     return "Common letters: " + str;
 }
+
+console.log(sameLetter("house", "computers"))

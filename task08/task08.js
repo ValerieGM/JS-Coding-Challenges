@@ -11,3 +11,5 @@ const timeConverter = (minutes) => {
     
     return (tempHr + tempMin);
 }
+
+console.log(timeConverter(65));

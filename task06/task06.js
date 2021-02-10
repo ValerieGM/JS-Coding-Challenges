@@ -12,3 +12,5 @@ const maximum = (...numbers) => {
     }
     return temp;
 }
+
+console.log(maximum(1, 2, 3));

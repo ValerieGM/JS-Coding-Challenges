@@ -5,3 +5,5 @@ const evenOrOdd = (number) => {
         console.log("odd");
     }
 }
+
+evenOrOdd(9);

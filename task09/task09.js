@@ -10,3 +10,5 @@ const vowels = (string) => {
     }
     return str;
 }
+
+console.log(vowels("vowels"));
